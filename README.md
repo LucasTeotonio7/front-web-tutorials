@@ -8,3 +8,7 @@ Short works in html, css and javascript.
 #### 2. Responsive Footer
 - Author: Muhammad Irshad | Channel Youtube: OnlineTutorials 🔗 [Video Link](https://www.youtube.com/watch?v=B4KZYsyuVOE)
 - Click to see: [Responsive Footer](https://front-web-tutorials.vercel.app/Responsive-Footer/main.html)
+
+#### 3. Responsive Website
+- Author: Muhammad Irshad | Channel Youtube: OnlineTutorials 🔗 [Video Link](https://www.youtube.com/watch?v=ac5nmWOkBEY)
+- Click to see: [Responsive Website](https://front-web-tutorials.vercel.app/Responsive-Website/main.html)
