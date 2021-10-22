@@ -13,6 +13,6 @@ Short works in html, css and javascript.
 - Author: Muhammad Irshad | Channel Youtube: OnlineTutorials 🔗 [Video Link](https://www.youtube.com/watch?v=ac5nmWOkBEY)
 - Click to see: [Responsive Website](https://front-web-tutorials.vercel.app/Responsive-Website/main.html)
 
-#### 4. Responsive Website
+#### 4. Animation Text
 - Author: Muhammad Irshad | Channel Youtube: OnlineTutorials 🔗 [Video Link](https://www.youtube.com/watch?v=9JQq8xsiy4k)
 - Click to see: [Animation Text](https://front-web-tutorials.vercel.app/Animation-Text/main.html)
