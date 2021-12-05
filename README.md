@@ -11,6 +11,7 @@ Author: Muhammad Irshad | Channel Youtube: [OnlineTutorials](https://www.youtube
 #### 🚀 [GlowEffect](https://front-web-tutorials.vercel.app/GlowEffect/main.html)
 #### 🚀 [Responsive Footer](https://front-web-tutorials.vercel.app/Responsive-Footer/main.html)
 #### 🚀 [Responsive Website](https://front-web-tutorials.vercel.app/Responsive-Website/main.html)
+#### 🚀 [Waves](https://front-web-tutorials.vercel.app/Waves/main.html)
 
 
 
