@@ -5,6 +5,7 @@ Short works in html, css and javascript.
 Author: Muhammad Irshad | Channel Youtube: [OnlineTutorials](https://www.youtube.com/c/OnlineTutorials4Designers)
 #### Click to see:
 #### 🚀 [Animation Text](https://front-web-tutorials.vercel.app/Animation-Text/main.html)
+#### 🚀 [Circular-Menu](https://front-web-tutorials.vercel.app/Circular-Menu/main.html)
 #### 🚀 [Countdown](https://front-web-tutorials.vercel.app/Countdown/main.html)
 #### 🚀 [CSS-3D](https://front-web-tutorials.vercel.app/CSS-3D/main.html)
 #### 🚀 [Fitness](https://front-web-tutorials.vercel.app/Fitness/main.html)
