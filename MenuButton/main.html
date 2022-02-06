@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=pt>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu | Button CLick</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="action">
+            <div class="profile" onclick="toggleMenu()">
+                <img src="imagens/pessoa.jpg">
+            </div>
+            <div class="menu">
+                <h3>alejandro sanz<br><span>Web Design</span></h3>
+                <ul>
+                    <li><img src="imagens/user.png"><a href="#">Meu Perfil</a></li>
+                    <li><img src="imagens/edit.png"><a href="#">Editar Perfil</a></li>
+                    <li><img src="imagens/envelope.png"><a href="#">Inbox</a></li>
+                    <li><img src="imagens/settings.png"><a href="#">Configurações</a></li>
+                    <li><img src="imagens/question.png"><a href="#">Ajuda</a></li>
+                    <li><img src="imagens/log-out.png"><a href="#">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
