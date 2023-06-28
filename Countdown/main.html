@@ -6,19 +6,32 @@
         <title>Countdown</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="body-area">
         <div class="container">
             <div class="imgBx"></div>
             <div class="countdownBx">
-                <h2 id="title">Contagem Regressiva para<br><span>20<i>22</i></span></h2>
+                <h2 id="title">Aguardando<br>
+                    <span>O retorno de <i>Lucas</i></span>
+                </h2>
                 <div class="countdown">
-                    <div id="day">NA</div>
-                    <div id="hour">NA</div>
-                    <div id="minute">NA</div>
-                    <div id="second">NA</div>
+                    <div id="day">0</div>
+                    <div id="hour">0</div>
+                    <div id="minute">0</div>
+                    <div id="second">0</div>
                 </div>
+
             </div>
+            <div class="div-play">
+                <p>?</p>
+                <button id="button-play">PLAY</button>
+            </div>
+            
         </div>
+        <audio id="audio" controls>
+            <source  src="music.mp3" type="audio/mp3" loop="true" autostart="true">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
         <script src="scripts.js"></script>
     </body>
 </html>
