@@ -157,6 +157,7 @@
     padding: 10px 75px;
     border-radius: 5px;
     font-weight: bold;
+    border: none;
 }
 
 #button-play:hover {
