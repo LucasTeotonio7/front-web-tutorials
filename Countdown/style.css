@@ -107,7 +107,7 @@
 
 @media(max-width: 991px){
     .container .imgBx{
-        display: none;
+        display: none !important;
     }
 
     .container .countdownBx{
