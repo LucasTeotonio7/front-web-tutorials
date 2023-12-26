@@ -104,6 +104,11 @@
     color: #19d3da;
 }
 
+.spotify-iframe {
+    width: 95%;
+    margin-top: 20px;
+}
+
 @media(max-width: 991px){
     .container .imgBx{
         display: none;
@@ -129,5 +134,3 @@
         margin-top: -20px;
     }
 }
-
-

@@ -1,4 +1,6 @@
 const nextYear = new Date().getFullYear() + 1
+
+
 const countDate = new Date('jan 1,'+nextYear+' 00:00:00').getTime();
 
 function newYear(){
@@ -31,3 +33,5 @@ nextYearStr = nextYear+''
 document.getElementById('title').innerHTML =
     "Contagem Regressiva para<br><span>20<i>"
     + nextYearStr.substr(2,3)+"</i></span>";
+
+
