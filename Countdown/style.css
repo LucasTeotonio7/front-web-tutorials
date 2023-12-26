@@ -15,16 +15,15 @@
 }
 
 .container .imgBx{
-    display: none;
     position: relative;
     width: 450px;
     height: 100%;
-    background: url(images/images.jpg);
+    background: url(images/bg2.jpg);
     background-size: cover;
 }
 
 .container .countdownBx{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -42,7 +41,7 @@
 }
 
 .container .countdownBx h2 span{
-    font-size: 2.3em;
+    font-size: 6em;
     font-weight: 700;
 }
 
@@ -105,9 +104,14 @@
     color: #19d3da;
 }
 
+.spotify-iframe {
+    width: 95%;
+    margin-top: 20px;
+}
+
 @media(max-width: 991px){
     .container .imgBx{
-        display: none !important;
+        display: none;
     }
 
     .container .countdownBx{
@@ -129,57 +133,4 @@
         margin: 0;
         margin-top: -20px;
     }
-}
-
-
-
-#audio {
-    display: none;
-}
-
-.div-play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.div-play p {
-    color: white;
-    font-weight: bold;
-    font-size: 9rem;
-}
-
-#button-play {
-    cursor: pointer;
-    margin-top: 60px;
-    padding: 10px 75px;
-    border-radius: 5px;
-    font-weight: bold;
-    border: none;
-}
-
-#button-play:hover {
-    background-color: #19d3da;
-    color: #373a40;
-    transition: 0.4s;
-}
-
-
-.countdownBx, .imgBx {
-    opacity: 0;
-    transition: opacity 3s;
-}
-
-.imgBx {
-    transition: opacity 8s;
-}
-  
-.countdownBx.show-animation, .imgBx.show-animation {
-    opacity: 0.01;
-}
-  
-.countdownBx.show, .imgBx.show {
-    opacity: 1;
 }

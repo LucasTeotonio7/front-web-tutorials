@@ -6,32 +6,32 @@
         <title>Countdown</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body id="body-area">
+    <body>
         <div class="container">
             <div class="imgBx"></div>
             <div class="countdownBx">
-                <h2 id="title">Aguardando<br>
-                    <span>O retorno de <i>Lucas</i></span>
-                </h2>
+                <h2 id="title">Contagem Regressiva para<br><span>20<i>22</i></span></h2>
                 <div class="countdown">
-                    <div id="day">0</div>
-                    <div id="hour">0</div>
-                    <div id="minute">0</div>
-                    <div id="second">0</div>
+                    <div id="day">NA</div>
+                    <div id="hour">NA</div>
+                    <div id="minute">NA</div>
+                    <div id="second">NA</div>
                 </div>
-
-            </div>
-            <div class="div-play">
-                <p>?</p>
-                <button id="button-play">PLAY</button>
+                <iframe 
+                    style="border-radius:12px"
+                    class="spotify-iframe"
+                    src="https://open.spotify.com/embed/playlist/2oVdHANfwTcfxUcaAmEgZv?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+                
             </div>
             
         </div>
-        <audio id="audio" controls>
-            <source  src="music.mp3" type="audio/mp3" loop="true" autostart="true">
-            Seu navegador não suporta o elemento de áudio.
-        </audio>
-
         <script src="scripts.js"></script>
     </body>
 </html>
