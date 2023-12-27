@@ -106,7 +106,9 @@
 
 .spotify-iframe {
     width: 95%;
-    margin-top: 20px;
+    opacity: 0.9;
+    height: calc(100% - 30px);
+    padding: 10px;
 }
 
 @media(max-width: 991px){
