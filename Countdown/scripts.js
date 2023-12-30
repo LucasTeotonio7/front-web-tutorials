@@ -1,7 +1,7 @@
 const year = new Date().getFullYear();
 const nextYear = year + 1;
 
-const countDate = new Date('dec 30, 2023 08:50:00').getTime();
+const countDate = new Date('dec 30, 2023 08:58:00').getTime();
 const $title = document.getElementById('title');
 const $countdownArea = document.getElementById('countdown-area');
 const $imageBox = document.getElementById('image-box');
@@ -10,7 +10,6 @@ const $mainContainer = document.getElementById('main-container');
 function setNewYear() {
     $countdownArea.style.display = 'none';
     $mainContainer.style.backgroundImage = 'url("images/fireworks.gif")';
-    $imageBox.style.background = '#373a40';
     $title.classList.remove('red');
     $title.innerHTML =
     "Feliz ano novo<br><span>20<i>24</i></span>";
@@ -75,4 +74,4 @@ var intervalID = setInterval(function(){
 },1000)
 
 nextYearStr = year.toString();
-document.getElementById('title').innerHTML = "Contagem Regressiva para o ano novo<br><span>20<i>24</i></span>";
+document.getElementById('title').innerHTML = "Contagem Regressiva para o ano novo<br><span>20<i>23</i></span>";
