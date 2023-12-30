@@ -18,7 +18,7 @@
     position: relative;
     width: 450px;
     height: 100%;
-    background: url(images/bg2.jpg);
+    background: url(images/1z6a.gif);
     background-size: cover;
 }
 
@@ -69,6 +69,7 @@
     font-weight: 500;
     margin: 0 15px;
     margin-top: -25px;
+    transition: 0.5s;
 }
 
 .container .countdownBx .countdown div::before{
@@ -111,6 +112,68 @@
     padding: 10px;
 }
 
+
+.light {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.light::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    transform: translateX(-50%);
+    animation: moveLight 6s ease-in-out infinite;
+}
+
+.last-seconds {
+    color: #ef476f !important;
+    animation: pulsate 2s infinite;
+}
+
+.last-seconds::before {
+    color: #ef476f !important;
+}
+
+#title.red i {
+    color: #ef476f !important;
+}
+
+#title.new-year {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 100px;
+}
+
+#title.new-year i {
+    color: #ecdf93 !important;
+}
+
+
+
+@keyframes pulsate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+@keyframes moveLight {
+    from {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 0;
+    }
+}
+
 @media(max-width: 991px){
     .container .imgBx{
         display: none;
@@ -134,5 +197,29 @@
         font-size: 1.8em;
         margin: 0;
         margin-top: -20px;
+    }
+}
+
+
+@media(min-width: 1600px){
+    .container .countdownBx h2 {
+        font-size: 2.5em;
+    }
+
+    .container .countdownBx .countdown {
+        height: 170px;
+    }
+
+    .container .countdownBx .countdown div {
+        width: 170px;
+        font-size: 3.5em;
+    }
+
+    #countdown-area.last-time {
+        height: 250px;
+    }
+
+    .last-seconds {
+        font-size: 4rem !important;
     }
 }
