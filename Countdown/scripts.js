@@ -1,7 +1,7 @@
 const year = new Date().getFullYear();
 const nextYear = year + 1;
 
-const countDate = new Date('dec 30, 2023 08:58:00').getTime();
+const countDate = new Date('jan 01, 2024 00:00:00').getTime();
 const $title = document.getElementById('title');
 const $countdownArea = document.getElementById('countdown-area');
 const $imageBox = document.getElementById('image-box');
