@@ -110,6 +110,7 @@
     opacity: 0.9;
     height: calc(100% - 30px);
     padding: 10px;
+    border-radius:12px
 }
 
 
