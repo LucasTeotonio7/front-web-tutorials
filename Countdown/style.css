@@ -105,7 +105,7 @@
     color: #19d3da;
 }
 
-.spotify-iframe {
+#spotify-iframe {
     width: 95%;
     opacity: 0.9;
     height: calc(100% - 30px);
