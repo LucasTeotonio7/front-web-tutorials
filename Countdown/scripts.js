@@ -1,7 +1,7 @@
 const year = new Date().getFullYear();
 const nextYear = year + 1;
 
-const countDate = new Date('jan 01, 2024 00:00:00').getTime();
+const countDate = new Date(`jan 01, ${nextYear} 00:00:00`).getTime();
 const $title = document.getElementById('title');
 const $countdownArea = document.getElementById('countdown-area');
 const $imageBox = document.getElementById('image-box');
@@ -74,4 +74,4 @@ var intervalID = setInterval(function(){
 },1000)
 
 nextYearStr = year.toString();
-document.getElementById('title').innerHTML = "Contagem Regressiva para o ano novo<br><span>20<i>23</i></span>";
+document.getElementById('title').innerHTML = "Contagem Regressiva para o ano novo<br><span>20<i>24</i></span>";
